@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/samsung/starlte/device.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
 
 # Device identifier, this must come after all inclusions
-PRODUCT_NAME := lineage_starlte
+PRODUCT_NAME := alpha_starlte
 PRODUCT_DEVICE := starlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G960F
@@ -56,7 +56,7 @@ TARGET_BUILD_PACKAGE := 1
 
 # Device config
 TARGET_HAS_UDFPS := false
-TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_BLUR := false
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
