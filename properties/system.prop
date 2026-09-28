@@ -1,0 +1,4 @@
+# Add these as system properties (in system.prop file), You may use utilities as libinit if configuring for unified devices
+ro.product.marketname=Samsung Galaxy S9
+ro.infinity.soc=Exynos 9810 (10 nm) - EMEA
+ro.infinity.camera=12MP + 8MP + 2MP
